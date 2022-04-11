@@ -1,0 +1,60 @@
+.container {
+
+  .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  h1 {
+    font-size: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  span {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    line-height: 1.8rem;
+  }
+
+  .btn-space {
+    margin-bottom: 20px;
+  }
+
+  .btn-cta {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    a {
+      margin: 0 10px;
+    }
+
+    .cta-project {
+      background-color: #007be0;
+      border: 1px solid #007be0;
+      color: #fff;
+      padding: 12px 30px;
+      text-decoration: none;
+    }
+
+    .cta-event-doc {
+      border: 1px solid #007be0;
+      color: #007be0;
+      padding: 12px 30px;
+      text-decoration: none;
+    }
+  }
+}
