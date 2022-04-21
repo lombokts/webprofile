@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #ffffff;
+
+  .navbar-brand {
+    img {
+      width: 130px;
+    }
+  }
+
+  .collapse {
+    .navbar-nav {
+      margin: auto;
+
+      .nav-item {
+        .nav-link {
+          color: #171D22;
+        }
+
+        .nav-link.active {
+          color: #087BE0;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
