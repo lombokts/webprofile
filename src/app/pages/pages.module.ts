@@ -5,10 +5,16 @@ import { PagesRoutingModule } from './pages-routing.module';
 
 // Components
 import { AboutComponent } from './about/about.component';
+import { ProjectComponent } from './project/project.component';
+import { SpeakerComponent } from './speaker/speaker.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
-    AboutComponent
+    AboutComponent,
+    ProjectComponent,
+    SpeakerComponent,
+    GalleryComponent
   ],
   imports: [
     CommonModule,
