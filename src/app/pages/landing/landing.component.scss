@@ -49,4 +49,30 @@
       }
     }
   }
+
+  .about {
+    padding: 100px 0;
+
+    .container {
+      h1 {
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 50px;
+      }
+
+      .about-content {
+        .about-text {
+          width: 80%;
+          text-align: justify;
+          transform: translateY(20%);
+        }
+
+        .about-image {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }
