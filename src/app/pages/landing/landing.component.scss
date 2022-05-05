@@ -1,4 +1,9 @@
 .content {
+  p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
   .hero {
     background-color: #171D22;
     height: 86vh;
@@ -57,14 +62,12 @@
       h1 {
         justify-content: center;
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
       }
 
       .about-content {
         .about-text {
-          width: 80%;
-          text-align: justify;
-          transform: translateY(20%);
+          text-align: center
         }
 
         .about-image {
@@ -73,6 +76,12 @@
           }
         }
       }
+    }
+  }
+
+  .gallery {
+    .gallery-text {
+      text-align: center;
     }
   }
 }
